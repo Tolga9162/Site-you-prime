@@ -52,6 +52,7 @@
 
 #how-link-container {
     margin-bottom: 2rem;
+    margin-top: 20rem;
   }
   
   .theme-link {
@@ -219,6 +220,12 @@
       --btn-padding-vertical: 2rem;
       --btn-padding-horizontal: 2rem;
     }
+    @media only screen and (max-width: 480px) {
+      #how-link-container {
+        margin-top: 150px;
+      }
+    }
+
     #header svg {
       width: 50px;
       height: 50px;
