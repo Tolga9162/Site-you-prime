@@ -225,6 +225,11 @@
         margin-top: 150px;
       }
     }
+    @media only screen and (max-width: 768px) {
+      #how-link-container {
+        margin-top: 150px;
+      }
+    }
 
     #header svg {
       width: 50px;
