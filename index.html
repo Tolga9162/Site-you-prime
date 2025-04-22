@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Youprime - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with logo and title -->
+  <div id="header">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 2v4" stroke-width="2" stroke-linecap="round"/>
+      <path d="M5 12a7 7 0 0 0 14 0" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="6" x2="12" y2="22" stroke-width="2" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="16" y2="18" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <h1 id="site-title">Youprime</h1>
+  </div>
+
+  <!-- Link to how.html -->
+  <div id="how-link-container" style="margin-top:20rem;">
+    <a href="./page/how.html" class="theme-link">How Priming Works</a>
+  </div>
+  <div id="steps-box">
+  <strong style="font-size: 40px;">Steps to follow:</strong>
+   <ol>
+     <li>Bookmark this page</li>
+      <li>Choose a theme and prime yourself multiple times during the day</li>
+      <li>Do this for a week</li>
+      <li>Enjoy better decision-making</li>
+    </ol>
+  </div>
+  <!-- Theme selector -->
+  <div id="controls">
+    <h2>Choose your theme</h2>
+    <div class="theme-buttons">
+      <button data-theme="money">Money</button>
+      <button data-theme="success">Success</button>
+      <button data-theme="confidence">Self-Confidence</button>
+    </div>
+    <div class="theme-buttons">
+      <button data-theme="relationship">Relationship</button>
+      <button data-theme="intelligence">Intelligence</button>
+      <button data-theme="sport">Sport</button>
+    </div>
+  </div>
+
+  <!-- Prime button and word display -->
+  <div id="prime-container">
+    <button id="prime-btn">Prime</button>
+    <div id="word-display"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

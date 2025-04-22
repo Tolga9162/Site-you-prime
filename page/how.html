@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Priming Works - Youprime</title>
+  <style>
+    :root {
+      --black: #000;
+      --white: #fff;
+      --gray: #888;
+      --font-base: 1rem;
+      --font-large: 2rem;
+      --font-xlarge: 8rem;
+      --section-gap: 3rem;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: var(--black);
+    }
+    header {
+      text-align: center;
+      margin-bottom: var(--section-gap);
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.75rem;
+      margin-bottom: 0.5rem;
+    }
+    section {
+      margin-bottom: var(--section-gap);
+    }
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+    }
+    .section-content img {
+      flex: 1 1 200px;
+      max-width: 300px;
+      border-radius: 0.5rem;
+    }
+    .section-content .text {
+      flex: 2 1 300px;
+    }
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    p { margin-bottom: 1rem; }
+    ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+    /* Default button style (Back to Home) */
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--white);
+      background: var(--black);
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    a.button:hover { background: var(--gray); }
+    /* Wiki button style */
+    a.button.wiki {
+      background: transparent;
+      color: var(--black);
+      border: 2px solid var(--black);
+      padding: 0.5rem 1rem;
+    }
+    a.button.wiki:hover {
+      background: var(--black);
+      color: var(--white);
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      .section-content { flex-direction: column; }
+      header img { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+    <h1>How Priming Works</h1>
+    <p>Discover how subtle cues can shape your mindset and decisions.</p>
+  </header>
+
+  <section>
+    <h2>The Psychology Behind Priming</h2>
+    <div class="section-content">
+      <img src="../image/sandip-kalal-sBKlM7Rc8eI-unsplash.jpg"  alt="Neurons connection">
+      <div class="text">
+        <p>When we encounter a word, image, or situation, related concepts in our mind become more accessible. For example, seeing the word “yellow” can make you quicker to think of “banana” or “sun.” This happens because neurons representing connected ideas activate together, strengthening their link.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Effects on Decision-Making</h2>
+    <div class="section-content">
+      <div class="text">
+        <p>Priming influences our choices in everyday life. Subtle environmental cues—like background images or word lists—can sway our preferences and judgments. For instance, participants primed with cleanliness words often make more ethical decisions afterward.</p>
+      </div>
+      <img src="../image/joachim-schnurle-GYpv7oh1G_A-unsplash.jpg" alt="Decision making illustration">
+    </div>
+  </section>
+
+  <section>
+    <h2>Applications of Priming</h2>
+    <ul>
+      <li><strong>Marketing</strong>: Brands use imagery and language to nudge consumer behavior—think of mouthwatering food photos influencing your meal choice.</li>
+      <li><strong>Education</strong>: Instructors prime students with key concepts to boost comprehension and retention.</li>
+      <li><strong>Self-Improvement</strong>: Youprime displays targeted motivational words to cultivate confidence and focus.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why It Helps Us</h2>
+    <div class="section-content">
+      <img src="../image/markus-winkler-2YIShvIMMQc-unsplash.jpg" alt="Success path illustration">
+      <div class="text">
+        <p>Intentional priming guides thought patterns and behaviors. By exposing yourself to success- and confidence-related words, you reinforce a positive mindset, making challenges easier to tackle and goals more achievable.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>If you'd like to learn more, check out <a href="https://en.wikipedia.org/wiki/Priming_(psychology)" target="_blank" class="button wiki">this overview on Wikipedia</a>.</p>
+    <p><a href="../index.html" class="button">← Back to Home</a></p>
+  </footer>
+</body>
+</html>
