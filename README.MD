@@ -9,6 +9,8 @@ you'll see a fast words sequence of 10 words based on the theme you choose.
 By doing this multiples time during the day and for atleast a week,
 you'll see a drastic change in your decision making.
 
+![DEMO](image/howto.gif)
+
 ### WHY IT WORKS
 
 I created this project after "priming" myself that i should be confident about trying things and pushing them in front of a public.
